@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
 
-
 :root {
   --yellow: #F4D04E;
   --gray-950: #111111;
@@ -83,6 +82,11 @@ body {
   gap: var(--spacing-150);
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+#content h4:hover {
+  color: var(--yellow);
+  cursor: url('./assets/Pointer.svg'), pointer;
 }
 
 .category {
