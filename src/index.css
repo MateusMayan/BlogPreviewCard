@@ -73,6 +73,7 @@ body {
 
 #blogImage img {
   border-radius: 10px;
+  width: 100%;
 }
 
 #content {
@@ -101,4 +102,10 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .box {
+    width: 327px;
+  }
 }
